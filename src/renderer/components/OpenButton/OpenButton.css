@@ -1,0 +1,6 @@
+.OpenButton--main {
+	/*transform: scale(1);*/
+	flex: 1;
+	filter: invert(78%) sepia(0%) saturate(1412%) hue-rotate(349deg) brightness(99%) contrast(74%);
+	padding: 15px;
+}

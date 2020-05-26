@@ -1,0 +1,8 @@
+.CloseButton--main {
+	transform: scale(0.6);
+	filter: invert(78%) sepia(0%) saturate(1412%) hue-rotate(349deg) brightness(99%) contrast(74%);
+	flex: 1;
+	width: 10vw;
+	-webkit-app-region: no-drag;
+	height: 10vh;
+}

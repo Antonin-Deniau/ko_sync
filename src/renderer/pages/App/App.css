@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "Univers TE20 Thin";
+    src: url("http://db.onlinewebfonts.com/t/1c6eb2519248229e6860a41985bf1827.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/1c6eb2519248229e6860a41985bf1827.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/1c6eb2519248229e6860a41985bf1827.ttf") format("truetype"); /* chrome firefox opera Safari, Android, iOS 4.2+*/
+}
+
+:root {
+    --main-bg-color: #7F7F7F;
+    --main-fg-color: #B2B2B2;
+}
+
+.App--main {
+	font-family: "Univers TE20 Thin", sans-serif;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  background: var(--main-bg-color);
+}
+
+.App--container {
+  height: 90vh;
+  display: flex;
+}
+
+.App--bar {
+  height: 10vh;
+  width: 98vw;
+
+  display: flex;
+  flex-direction: row;
+  -webkit-app-region: drag;
+}
+
+.App--title {
+  flex: 9;
+  text-align: center;
+  line-height: 10vh;
+  font-size: xx-large;
+  color: var(--main-fg-color);
+}

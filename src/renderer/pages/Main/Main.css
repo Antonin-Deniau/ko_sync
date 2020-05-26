@@ -1,0 +1,24 @@
+.Main--container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.Main--top-row {
+	max-height: 15%;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	border-bottom: solid 1px var(--main-fg-color)
+}
+
+.Main--row {
+	max-height: 21%;
+	flex: 3;
+	display: flex;
+	flex-direction: row;
+}
+
+.Main--space {
+	flex: 4;
+}
