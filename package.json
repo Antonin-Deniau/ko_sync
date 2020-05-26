@@ -14,12 +14,18 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
     "wavefile": "^11.0.0"
+  },
+  "electronWebpack": {
+    "whiteListedModules": ["react", "react-dom", "react-redux"]
   },
   "devDependencies": {
     "@babel/preset-react": "^7.9.4",
     "electron": "8.2.0",
     "electron-builder": "^22.4.1",
+    "electron-devtools-installer": "^3.0.0",
     "electron-webpack": "^2.8.2",
     "source-map-support": "^0.5.19",
     "webpack": "~4.42.1"
