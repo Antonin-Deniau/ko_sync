@@ -28,15 +28,15 @@
 
 .App--bar {
   height: 10vh;
-  width: 98vw;
+  width: 100vw;
 
-  display: flex;
-  flex-direction: row;
   -webkit-app-region: drag;
 }
 
 .App--title {
-  flex: 9;
+  width: 100%;
+  text-align: center;
+
   text-align: center;
   line-height: 10vh;
   font-size: xx-large;

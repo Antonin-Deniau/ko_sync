@@ -1,11 +1,12 @@
 import  React from 'react'
-import { render } from "react-dom"
-
 import { Provider } from "react-redux"
-import createStore from "./createStore"
+import { render } from "react-dom"
+import { BrowserRouter as Router } from 'react-router-dom'
 
 import App from "./pages/App"
-import Main from "./pages/Main"
+
+import createStore from "./createStore"
+import routes from './routes'
 
 const rootElement = document.getElementById("app")
 
@@ -13,7 +14,11 @@ let store = createStore()
 
 render(
   <Provider store={store}>
-    <App><Main/></App>
+   <App>
+     <Router>
+      {routes}
+     </Router>
+   </App>
   </Provider>,
   rootElement
 )

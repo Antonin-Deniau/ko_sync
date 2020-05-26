@@ -19,6 +19,8 @@
 	flex-direction: row;
 }
 
-.Main--space {
-	flex: 4;
+.Main--error {
+  flex: 5;
+  color: var(--main-fg-color);
+  align-self: center;
 }
